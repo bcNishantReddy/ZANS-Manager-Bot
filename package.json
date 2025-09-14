@@ -1,15 +1,16 @@
 {
   "name": "zans-task-manager",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Discord Task Manager Bot with Admin/Manager roles",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "deploy": "node deploy-commands.js"
+    "deploy-commands": "node deploy-commands.js"
   },
   "dependencies": {
-    "discord.js": "^14.15.3",
+    "discord.js": "^14.16.3",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.21.2",
+    "body-parser": "^1.20.3"
   }
 }
